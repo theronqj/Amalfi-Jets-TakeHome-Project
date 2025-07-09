@@ -1,10 +1,22 @@
+//
+//  AirportCategory.swift
+//  AmalfiJetsTakeHome
+//
+//  Created by Theron on 7/8/25.
+//
+
 import Foundation
 
+/// A model representing a category of aircraft.
 struct AircraftCategory: Identifiable, Equatable {
+    /// The unique identifier for the aircraft category.
     let id: Int
+    /// The name of the aircraft category.
     let aircraft_category_name: String
+    /// The URL for the image representing the aircraft category.
     let aircraft_category_image_url: String
     
+    /// A static list of all available aircraft categories.
     static let allCategories: [AircraftCategory] = [
         AircraftCategory(id: 1, aircraft_category_name: "Turboprop", aircraft_category_image_url: "https://dev-atlas.amalfijets.com/admin/assets/images/aircrafts_category/turboprop.png"),
         AircraftCategory(id: 2, aircraft_category_name: "Light", aircraft_category_image_url: "https://dev-atlas.amalfijets.com/admin/assets/images/aircrafts_category/light.png"),
