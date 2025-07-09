@@ -70,4 +70,25 @@ The flow is logical and easy to follow.
 ## **4. Other Notes & Context**
 **Project Structure:** I organized the project files into a scalable, feature-based structure (`Features/Booking`, `Shared/`). This makes the codebase easy to navigate and maintain as new features are added. I also included a `Tests/` directory to outline where unit tests and UI tests would live.
 
+## **5. How to Run**
+This project is a standard iOS application built with SwiftUI and requires no special configuration.
+
+**Prerequisites**
+
+**macOS:** Sonoma 14.0 or later
+
+**Xcode:** 15.0 or later
+
+**Target iOS:** The project is configured for **iOS 17.0** or later. Please select a simulator running a compatible iOS version.
+
+**Steps**
+
+1. Clone the repository to your local machine.
+
+2. Navigate to the project's root directory and open the `AmalfiJetsTakeHome.xcodeproj` file in Xcode.
+
+3. Select an iOS simulator of your choice from the target menu (e.g., iPhone 16 Pro, running iOS 17.0 or later).
+
+4. Click the Run button (or press `Cmd + R`) to build and run the application.
+
 I enjoyed the challenge, and thank you for the opportunity to work on it.
