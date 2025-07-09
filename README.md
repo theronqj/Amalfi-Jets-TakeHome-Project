@@ -1,8 +1,8 @@
-#**Amalfi Jets Booking App - Take-Home Project**
-###**Theron**
-###**July 8, 2025**
+# **Amalfi Jets Booking App - Take-Home Project**
+### **Theron Jones**
+### **July 8, 2025**
 
-##**1. My Approach**
+## **1. My Approach**
 My goal for this project was to build a clean, modern, and user-friendly booking form using Apple's latest technologies. I chose **SwiftUI** for the user interface and **Combine** for handling asynchronous events and state management, following the **MVVM (Model-View-ViewModel)** architectural pattern.
 
 **Key Architectural Decisions:**
@@ -27,7 +27,7 @@ Using `@Published` property wrappers and `@StateObject` / `@ObservedObject` crea
 
 I discovered that the Aviowiki API returns a `200 OK` status with an empty response body for queries that yield no results. A standard decoding pipeline would fail with a `DecodingError`. I implemented a solution using Combine's `.tryCatch` operator to intercept this specific error, transform it into a successful result with an empty array, and prevent an erroneous error message from being shown to the user. Other, legitimate errors (like network failures) are still passed through and displayed correctly.
 
-##**2. What I Would Like to Improve**
+## **2. What I Would Like to Improve**
 Given more time, I would focus on the following areas to make the application more robust, scalable, and production-ready.
 
 **Dependency Injection & Testability:**
@@ -52,7 +52,7 @@ Instead of displaying errors as a simple string, I would create dedicated views 
 
 I would perform a full accessibility audit to ensure all elements have proper VoiceOver labels, hints, and traits, making the app fully usable for users with visual impairments.
 
-##**3. Feedback on the Designs**
+## **3. Feedback on the Designs**
 Overall, I found the designs to be clean, modern, and intuitive. The progressive disclosure of the form—showing the detailed input fields only after the primary route is selected—is an excellent UX pattern that reduces initial cognitive load for the user.
 
 **What I Liked:**
@@ -67,7 +67,7 @@ The flow is logical and easy to follow.
 
 **Clarity on "Notes" Field:** The placeholder text "Notes & Preferred Timing" is a bit long and could be ambiguous. It might be clearer to separate these into two distinct fields if they represent different types of input, or to simplify the placeholder to just "Add Notes or Preferences."
 
-##**4. Other Notes & Context**
+## **4. Other Notes & Context**
 **Project Structure:** I organized the project files into a scalable, feature-based structure (`Features/Booking`, `Shared/`). This makes the codebase easy to navigate and maintain as new features are added. I also included a `Tests/` directory to outline where unit tests and UI tests would live.
 
 I enjoyed the challenge, and thank you for the opportunity to work on it.
