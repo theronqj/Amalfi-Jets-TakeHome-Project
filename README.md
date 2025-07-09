@@ -2,6 +2,17 @@
 ### **Theron Jones**
 ### **July 8, 2025**
 
+<table>
+<tr>
+<td><img src="./MetaView.png" alt="Screenshot of the main booking screen with airports selected" width="300"/></td>
+<td><img src="./AircraftView.png" alt="Screenshot of the aircraft category selection sheet" width="300"/></td>
+</tr>
+<tr>
+<td><img src="./CalendarView.png" alt="Screenshot of the date picker sheet" width="300"/></td>
+<td><img src="./NotesView.png" alt="Screenshot of the notes sheet" width="300"/></td>
+</tr>
+</table>
+
 ## **1. My Approach**
 My goal for this project was to build a clean, modern, and user-friendly booking form using Apple's latest technologies. I chose **SwiftUI** for the user interface and **Combine** for handling asynchronous events and state management, following the **MVVM (Model-View-ViewModel)** architectural pattern.
 
